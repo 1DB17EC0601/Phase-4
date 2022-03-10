@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js" integrity="sha512-HWlJyU4ut5HkEj0QsK/IxBCY55n5ZpskyjVlAoV9Z7XQwwkqXoYdCIC93/htL3Gu5H3R4an/S0h2NXfbZk3g7w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>
+
+        <ul class="breadcrumb" data-spy="#">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">about us</a></li>
+            <li class="breadcrumb-item"><a href="#">services</a></li>
+            <li class="breadcrumb-item"><a href="#">contact</a></li>
+        </ul>
+
+        <body data-spy="scroll" target=".navbar">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                <a href="#" class="navbar-brand">Simplilearn</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link dropdown-toggle" id="mydropdown" data-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu" aria-labelledby="mydropdown">
+                            <a class="dropdown-item" href="#">JAVA</a>
+                            <a class="dropdown-item" href="#">JAVAScript</a>
+                            <a class="dropdown-item" href="#">HTML5</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="home" class="container-fluid bg-success" style="padding: top 80px; padding-bottom: 60px;">
+                <h1>this is home page</h1>
+            </div>
+            <div id="about" class="container-fluid bg-success" style="padding: top 80px; padding-bottom: 60px;">
+                <h1>this is about us page</h1>
+            </div>
+
+            <div id="home" class="container-fluid bg-success" style="padding: top 80px; padding-bottom: 60px;">
+                <h1>this ids home page</h1>
+            </div>
+            <div id="home" class="container-fluid bg-success" style="padding: top 80px; padding-bottom: 60px;">
+                <h1>this ids home page</h1>
+            </div>
+
+
+            <div class="spinner-border text-primary">
+                <span class="sr-only"> loading.....</span>
+            </div>
+            <div class="spinner-border text-secondary">
+                <span class="sr-only"> loading.....</span>
+            </div>
+            <div class="spinner-border text-warning">
+                <span class="sr-only"> loading.....</span>
+            </div>
+    </div>
+
+    </body>
+
+</html>
